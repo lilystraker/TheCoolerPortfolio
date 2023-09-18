@@ -2,6 +2,9 @@
     --lightaccent: #7fdf9f;
     --darkaccent: #27c45c;
     --background: #121212;
+    --bigtext: rgb(255, 255, 255,0.95);
+    --midtext: rgb(255, 255, 255,0.80);
+    --smalltext: rgb(255, 255, 255,0.60);
   }
 
 body {
@@ -16,30 +19,32 @@ body {
 
 h1 {
     color: white;
-    opacity: 87%;
+    opacity: 95%;
     font-family: cocobubble, sans-serif;
     font-size: 10em;
     text-shadow: 5px 10px #27c45c;
     display: inline;
+    animation: 2s h1-anim ease;
 }
 
 h2 {
     color: white;
-    opacity: 67%;
+    opacity: 80%;
     font-family: cocobubble, sans-serif;
     font-size: 2.5em;
     font-style: italic;
     display: inline;
+    animation: 3s h2-anim ease;
 }
 
 h3 {
     color: white;
-    opacity: 67%;
+    opacity: 80%;
     font-family: cocobubble, sans-serif;
     font-size: 2.5em;
     display: inline;
+    animation: 0.5s h2-anim ease;
 }
-
 
 #home {
     text-align: center;
@@ -63,11 +68,56 @@ h3 {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    animation: 3s h2-anim ease;
 }
+
+@keyframes h1-anim {
+    0% {
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    25% {
+        opacity: 0;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    50% {
+        color: #99B89B;
+        font-size: 15em; 
+        opacity: 1;
+        text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    75% {
+      color: var(--bigtext);
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes h2-anim {
+    0% {
+      color: #ffdef8;
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    50% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+  }
 
 .home-links {
     color: white;
-    opacity: 67%;
+    opacity: 80%;
     font-family: cocobubble, sans-serif;
     font-size: 2.5em;
     text-decoration: none;
@@ -78,3 +128,34 @@ h3 {
     color: var(--lightaccent);
     transition-duration: 0.5s;
 }
+
+/* ABOUT SECTION */
+#about {
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about-header-text {
+    margin-bottom: 5vh;
+    color: var(--midtext);
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+p {
+    color: var(--midtext);
+    font-size: 20px;
+}
+
+

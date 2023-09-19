@@ -56,6 +56,14 @@ h4 {
     animation: 0.5s h2-anim ease;
 }
 
+h5 {
+  color: var(--background);
+  opacity: 100%;
+  font-family: cocobubble, sans-serif;
+  font-size: 2.5em;
+  display: inline;
+}
+
 #home {
     text-align: center;
     margin-top: 10vh;
@@ -141,6 +149,7 @@ h4 {
 .home-links:hover {
     color: var(--lightaccent);
     transition-duration: 0.5s;
+    text-decoration: none;
 }
 
 /* ABOUT SECTION */
@@ -169,6 +178,9 @@ h4 {
     display: block;
 }
 
+a {
+  text-decoration: none;
+}
 p {
     color: var(--midtext);
     font-size: 1.5em;
@@ -258,7 +270,6 @@ p {
         text-align: center;
         background-color: var(--lightaccent);
     }
-    
     #about-header-text {
         margin-bottom: 5vh;
         margin-left: 20vw;
@@ -269,19 +280,14 @@ p {
         /* margin-top: auto; */
         font-family: sans-serif;
     }
-    
+    #projects-header-text {
+      margin-bottom: 5vh;
+      margin-top: 5vh;
+    }
   }
   
   /* PROJECTS SECTION */
 #projects {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: var(--background);
 }
 
@@ -292,4 +298,66 @@ p {
   text-align: center;
   margin-bottom: auto;
   font-family: sans-serif;
+}
+
+.container-fluid {
+  margin-top: 50px;
+	width: 100%;
+} 
+
+.single-project {
+  width: 450px;
+  background-color: rgba(185, 185, 185, 0.8);
+  border-radius: 10%;
+  height: 512px;
+} 
+
+.single-project-content {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.project-thumbnails {
+  margin-top: 25px;
+  border-radius: 10%;
+
+} 
+
+.container-fluid {
+  width: 100%;
+}
+
+.caption {
+  font-size: 1.8em;
+  font-family: cocobubble;
+  color: var(--background);
+  text-align: left;
+}
+
+.mini-caption {
+  font-family: sans-serif;
+  color: var(--background);
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.project-skills {
+  background-color: var(--background);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.project-skills:hover {
+  background-color: #454545;
+  color: var(--lightaccent);
+  transition-duration: 0.35s;
 }

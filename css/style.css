@@ -60,7 +60,7 @@ h5 {
   color: var(--background);
   opacity: 100%;
   font-family: cocobubble, sans-serif;
-  font-size: 2.5em;
+  font-size: 2em;
   display: inline;
 }
 
@@ -171,10 +171,9 @@ h5 {
     margin-left: 20vw;
     margin-right: 20vw;
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 150px;
     /* margin-top: auto; */
-    font-family: sans-serif;
+    font-family: Oxygen;
     display: block;
 }
 
@@ -313,6 +312,7 @@ p {
   border-radius: 10%;
   height: 512px;
   position: relative;
+  margin-bottom: 50px;
 } 
 
 .single-project-content {
@@ -342,14 +342,14 @@ p {
 }
 
 .mini-caption {
-  font-family: sans-serif;
+  font-family: Oxygen, sans-serif;
   color: var(--background);
   text-align: left;
   font-size: 1.3em;
 }
 
 .coming-soon-caption {
-  font-family: sans-serif;
+  font-family: Oxygen, sans-serif;
   color: rgb(131, 5, 5);
   text-align: left;
   font-size: 1.3em;
@@ -360,6 +360,7 @@ p {
   color: var(--midtext);
   font-size: 1.5em;
   border-radius: 10px;
+  font-family: Oxygen, sans-serif;
 }
 
 .btn-dark:hover {
@@ -377,7 +378,7 @@ p {
 
 .row {
   justify-content: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .blur {
@@ -391,4 +392,52 @@ p {
   bottom: 20px;
   width: 100%;
 
+}
+
+.boldtext {
+  color: var(--background);
+  font-weight: 700;
+  /* font-style: italic; */
+  font-family: Oxygen, sans-serif;
+  /* text-shadow: 5px 5px #27c45c; */
+  
+}
+
+#bottom-bar {
+    background-color: var(--background);
+    border-top: solid 1px white;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+#bottom-bar-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Oxygen, sans-serif;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.name-text {
+  font-family: cocobubble; 
+  color: var(--lightaccent)
+}
+
+.name-text:hover {
+  color: var(--darkaccent)
+}
+
+.contacts-images {
+	max-width:10%;
+	min-width:10px;
+	height:auto;
+	margin: 6px;
+}
+
+.contacts-images:hover {
+	opacity: 0.5;	
 }

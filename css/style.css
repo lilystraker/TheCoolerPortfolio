@@ -289,12 +289,14 @@ p {
   /* PROJECTS SECTION */
 #projects {
   background-color: var(--background);
+  margin-bottom: 50px;
 }
 
 #projects-header-text {
   margin-bottom: 5vh;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
   text-align: center;
   margin-bottom: auto;
   font-family: sans-serif;
@@ -358,6 +360,38 @@ p {
 
 .project-skills:hover {
   background-color: #454545;
-  color: var(--lightaccent);
   transition-duration: 0.35s;
+}
+
+.project-skills:hover a {
+  -color: #454545;
+  color: var(--lightaccent);
+}
+
+.btn-dark {
+  background-color: var(--background);
+  color: var(--midtext);
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+
+.btn-dark:hover {
+  background-color: var(--lightaccent);
+  color: var(--background);
+  font-size: 1.5em;
+}
+
+.btn-dark:focus, .btn-dark:active {
+  background-color: var(--darkaccent);
+  color: var(--background);
+  font-size: 1.5em;
+}
+
+
+.row {
+  justify-content: center;
+}
+
+#coming-soon {
+  opacity: 0.70;
 }

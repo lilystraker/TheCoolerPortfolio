@@ -363,6 +363,11 @@ p {
   font-family: Oxygen, sans-serif;
 }
 
+.about-skills {
+  margin-top: 20px;
+  left: 20px;
+}
+
 .btn-dark:hover {
   background-color: var(--lightaccent);
   color: var(--background);
@@ -375,8 +380,30 @@ p {
   font-size: 1.5em;
 }
 
+.btn-outline-dark {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  font-family: Oxygen, sans-serif;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--background);
+  /* color: var(--background); */
+  font-size: 1.5em;
+}
+
+.btn-outline-dark:focus, .btn-outline-dark:active {
+  background-color: var(--background);
+  color: var(--midtext);
+  font-size: 1.5em;
+}
+
 
 .row {
+  margin-bottom: 15px;
+}
+.row.project {
   justify-content: center;
   /* margin-bottom: 50px; */
 }
@@ -396,7 +423,7 @@ p {
 
 .boldtext {
   color: var(--background);
-  font-weight: 700;
+  /* font-weight: 700; */
   /* font-style: italic; */
   font-family: Oxygen, sans-serif;
   /* text-shadow: 5px 5px #27c45c; */

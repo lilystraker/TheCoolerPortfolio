@@ -434,7 +434,7 @@ p {
     background-color: var(--background);
     border-top: solid 1px white;
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 #bottom-bar-content {

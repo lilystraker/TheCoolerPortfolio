@@ -460,12 +460,36 @@ a:hover {
 }
 
 .contacts-images {
-	max-width:10%;
-	min-width:10px;
-	height:auto;
+	max-width: 10%;
+	min-width: 10px;
+	height: auto;
 	margin: 6px;
 }
 
 .contacts-images:hover {
 	opacity: 0.5;	
+}
+
+/* The navigation bar will stick to the top of the screen */
+.navigation {
+  top: 20px;
+  left: 20px;
+	position: fixed;
+	background-color: transparent;
+	mix-blend-mode: difference;
+	z-index: 1;
+}
+
+/* Note: Looks awful when covering project text */
+.nav-link {
+  color: var(--lightaccent);
+  font-family: cocobubble, sans-serif;
+  font-size: 1.7em;
+  display: inline;
+}
+
+.nav-link:hover {
+  color: var(--darkaccent);
+  font-family: cocobubble, sans-serif;
+  transition-duration: 0.35s;
 }

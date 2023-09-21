@@ -315,6 +315,12 @@ p {
   margin-bottom: 50px;
 } 
 
+.single-project:hover {
+  background-color: rgba(129, 129, 129, 0.8);
+  transition-duration: 0.35s;
+} 
+
+
 .single-project-content {
   margin-top: 10px;
   margin-left: 30px;
@@ -492,4 +498,22 @@ a:hover {
   color: var(--darkaccent);
   font-family: cocobubble, sans-serif;
   transition-duration: 0.35s;
+}
+
+#banner-plotly {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/SDVplotly.png");
+     min-height: 800px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+
+.header {
+  margin-top: calc(50vh - 25vh);
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }

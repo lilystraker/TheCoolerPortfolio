@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--background);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @font-face {
@@ -307,12 +307,12 @@ p {
 } 
 
 .single-project {
-  width: 450px;
+  width: 400px;
   background-color: rgba(185, 185, 185, 0.8);
   border-radius: 10%;
-  height: 512px;
+  height: 475px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 } 
 
 .single-project:hover {
@@ -467,7 +467,7 @@ a:hover {
 
 .contacts-images {
 	max-width: 10%;
-	min-width: 10px;
+	min-width: 40px;
 	height: auto;
 	margin: 6px;
 }

@@ -81,8 +81,15 @@ h5 {
 }
 
 #home-image {
-    width: 15vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+    max-width: 200px;
     height: auto;
+    animation: 4s image-anim ease;
+}
+
+.home-links {
+  margin-bottom: 10px;
 }
 
 #home-header-links {
@@ -231,6 +238,39 @@ p {
     opacity: 1;
   }
   
+
+  /* remove animations for mobile screens */
+  @media only screen and (max-width: 600px) {
+
+    @keyframes h1-anim {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+  
+    @keyframes h2-anim {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 400px) { 
+    #home-header-text {
+      margin-top: 150px;
+    }
+    .home-links {
+      opacity: 0;
+    }
+  }
+
   @media only screen and (max-height: 900px) {
     #home {
       height: 80vh;
@@ -361,6 +401,10 @@ p {
   font-size: 1.3em;
 }
 
+.btn {
+  /* max-width: 200px; */
+}
+
 .btn-dark {
   background-color: var(--background);
   color: var(--midtext);
@@ -486,20 +530,25 @@ a:hover {
 
 /* The navigation bar will stick to the top of the screen */
 .navigation {
-  top: 20px;
-  left: 20px;
+  top: 0px;
+  left: 0px; 
+  /* height: 50px; */
+  width: 100%;
 	position: fixed;
-	background-color: transparent;
-	mix-blend-mode: difference;
+	background-color: var(--background);
+	/* mix-blend-mode: difference; */
 	z-index: 1;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Note: Looks awful when covering project text */
 .nav-link {
+  text-align: center;
+  padding: 10px;
   color: var(--lightaccent);
   font-family: cocobubble, sans-serif;
   font-size: 1.7em;
-  display: inline;
+  display: inline-block;
 }
 
 .nav-link:hover {

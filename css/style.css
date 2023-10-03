@@ -472,6 +472,14 @@ a:hover {
 	margin: 6px;
 }
 
+a {
+  font-family: Oxygen, sans-serif; 
+  color: var(--midtext)
+}
+a:hover {
+  color: var(--lightaccent)
+}
+
 .contacts-images:hover {
 	opacity: 0.5;	
 }

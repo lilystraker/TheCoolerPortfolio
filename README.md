@@ -80,6 +80,7 @@ Lily Straker
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+* Portrait by [Bree Straker](https://instagram.com/breecaroart?igshid=MzRlODBiNWFlZA==)
 * [Badge Maker](https://shields.io/badges)
 * [README template](https://github.com/othneildrew/Best-README-Template)
   

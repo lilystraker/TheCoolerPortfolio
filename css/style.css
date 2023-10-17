@@ -1,10 +1,11 @@
 :root {
-    --lightaccent: #7fdf9f;
+    --lightaccent: #a1ecba;
     --darkaccent: #27c45c;
     --background: #121212;
     --bigtext: rgb(255, 255, 255,0.95);
     --midtext: rgb(255, 255, 255,0.80);
     --smalltext: rgb(255, 255, 255,0.60);
+    --greenbackground: #a1ecba;
   }
 
 body {
@@ -23,7 +24,7 @@ h1 {
     opacity: 95%;
     font-family: cocobubble, sans-serif;
     font-size: 10em;
-    text-shadow: 5px 10px #27c45c;
+    text-shadow: 5px 10px var(--darkaccent);
     display: inline;
     animation: 2s h1-anim ease;
 }
@@ -83,7 +84,7 @@ h5 {
 #home-image {
   margin-top: 1vh;
   margin-bottom: 1vh;
-    max-width: 200px;
+    max-width: 350px;
     height: auto;
     animation: 4s image-anim ease;
 }
@@ -170,7 +171,7 @@ h5 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--lightaccent);
+    background-color: var(--greenbackground)
 }
 
 #about-header-text {
@@ -204,7 +205,7 @@ p {
   }
   
   .wave {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%237fdf9f'/%3E%3C/svg%3E");
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23a1ecba'/%3E%3C/svg%3E");
     position: absolute;
     width: 100%;
     height: 100%;
@@ -545,14 +546,15 @@ a:hover {
 .nav-link {
   text-align: center;
   padding: 10px;
-  color: var(--lightaccent);
+  padding-right: 25px;
+  color: var(--midtext);
   font-family: cocobubble, sans-serif;
   font-size: 1.7em;
   display: inline-block;
 }
 
 .nav-link:hover {
-  color: var(--darkaccent);
+  color: var(--lightaccent);
   font-family: cocobubble, sans-serif;
   transition-duration: 0.35s;
 }

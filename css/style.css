@@ -593,3 +593,7 @@ a:hover {
 .contacts-images:hover {
 	opacity: 0.5;	
 }
+
+.btn-dark {
+  pointer-events: none;
+}

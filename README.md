@@ -1,5 +1,3 @@
-# TheCoolerPortfolio
-
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -11,7 +9,7 @@
   <h1 align="center">Programming Portfolio</h1>
 
   <p align="center">
-<!--     <a href="#">View Demonstration Video</a> -->
+   <a href = "https://lilystraker.github.io/TheCoolerPortfolio/">lilystraker.github.io/TheCoolerPortfolio/</a>
   </p>
 </div>
 
@@ -43,8 +41,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-I developed this website to display my personal programming projects. This is my second portfolio website, with the aim to create a more dynamic and interesting web page. 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I developed this website to display my personal programming projects. This is my second portfolio website, with the aim to create a more dynamic and interesting web page that demonstrates my creativity.
 
 ## Improvements
 <img src = "https://github.com/lilystraker/TheCoolerPortfolio/blob/7a54afc716f044ef2e0b96b0f0b48e4dd1fd141f/images/oldwebsite.png" alt = "Screenshot of old website" width = "400px"><img src = "https://github.com/lilystraker/TheCoolerPortfolio/blob/25e3b36297be15087b4475b57d8f76126af828d9/images/website.png" alt = "Screenshot of new website" width = "400px">

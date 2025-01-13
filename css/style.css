@@ -421,24 +421,34 @@ p {
     padding-right: 10px;
     padding: 5px 10px 5px 10px;
   }
+  .navigation {
+    border-bottom: 1px solid grey;
+  }
 }
 
 /* When navigation bar becomes double lined, add more space for home content  */
 @media only screen and (max-width: 400px) { 
   #home-header-text {
-    margin-top: 150px;
+    /* margin-top: 150px; */
   }
   .home-links {
     opacity: 0;
   }
+  #home-image {
+    width: 300px;
+  }
+  h1 {
+    font-size: 8em;
+  }
+
 }
 
 /* Increase height of home page */
-@media only screen and (max-height: 900px) {
+/* @media only screen and (max-height: 950px) {
   #home {
-    height: 80vh;
+    height: 100vh;
   }
-}
+} */
 
 /* Remove wave dividers */
 @media only screen and (max-width: 1300px) {

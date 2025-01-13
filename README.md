@@ -58,7 +58,7 @@ These are the areas I targeted and how I improved them:
 ## Roadmap
 
 - [X] Add new logo
-- [ ] Add cipher project
+- [X] Add cipher project
 - [ ] Add money manager project
 
 
